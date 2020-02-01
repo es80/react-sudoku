@@ -1,0 +1,53 @@
+* { font: 100% Calibri, sans-serif; }
+
+.PuzzleContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.Sidebar {
+  padding: 30px;
+}
+
+table {
+  border: 3px solid black;
+  border-collapse: collapse;
+  padding: 30px;
+}
+
+tr:nth-child(3n+0) {
+  border-bottom: 3px solid black;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  height: 40px;
+  width: 40px;
+}
+
+.locked {
+  background-color: #E6E6E6;
+}
+
+.invalid {
+  background-color: teal;
+}
+
+.incorrect {
+  background-color: red;
+}
+
+td:nth-child(3n) {
+  border-right: 3px solid black;
+}
+
+input { 
+  border: none;
+  text-align: center;
+  background-color: inherit;
+}
